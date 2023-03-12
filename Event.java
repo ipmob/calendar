@@ -1,10 +1,10 @@
 import java.time.LocalDateTime;
-import java.util.*;
 
 class Event {
     private String name;
     private LocalDateTime start;
     private LocalDateTime end;
+
     private User user;
 
     public Event(String name, LocalDateTime start, LocalDateTime end, User user) {
